@@ -75,10 +75,12 @@ nav ul li {
 
 .nav-item:hover {
   border-bottom: 2px solid #e0e0e0;
-  transition: all 0.5s ease;
+  transition: border-bottom 0.5s ease;
 }
 
-.sign {
+/* Garantir que não haja borda nos itens com imagens */
+.nav-pesqbook .nav-item:hover {
+  border-bottom: none;
 }
 
 .sign a {
@@ -87,7 +89,7 @@ nav ul li {
   background-color: #818cf8;
   padding: 8px 16px;
   border-radius: 5px;
-  border-bottom: 0;
+  border-bottom: none;
 }
 
 .sign a:hover {
