@@ -246,7 +246,24 @@ form:has(#checkbox:not(:checked)) button[type="submit"] {
   background-color: #ccc;
 }
 
-form:has(#checkbox:checked) button[type="submit"]:hover {
+form:has(#checkbox:not(:checked)) button[type="submit"],
+form:has(#email:placeholder-shown) button[type="submit"],
+form:has(#password:placeholder-shown) button[type="submit"],
+form:has(#password-confirm:placeholder-shown) button[type="submit"] {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #cccccc44;
+}
+
+form:not(:has(#checkbox:not(:checked))) :not(:has(#email:placeholder-shown)) :not(:has(#password:placeholder-shown)) :not(:has(#password-confirm:placeholder-shown)) button[type="submit"] {
+  opacity: 1;
+  pointer-events: auto;
+  cursor: pointer;
+  background-color: #e2e8f0;
+}
+
+form:not(:has(#checkbox:not(:checked))) :not(:has(#email:placeholder-shown)) :not(:has(#password:placeholder-shown)) :not(:has(#password-confirm:placeholder-shown)) button[type="submit"]:hover {
   background-color: #64748b;
 }
 
