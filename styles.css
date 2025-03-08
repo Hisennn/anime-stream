@@ -437,4 +437,8 @@ footer {
   .footer-container h4 {
     font-size: 89%;
   }
+
+  .sign {
+    min-width: 15ch;
+  }
 }
