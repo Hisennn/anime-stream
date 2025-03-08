@@ -78,7 +78,6 @@ nav ul li {
   transition: border-bottom 0.5s ease;
 }
 
-/* Garantir que não haja borda nos itens com imagens */
 .nav-pesqbook .nav-item:hover {
   border-bottom: none;
 }
