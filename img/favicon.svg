@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#1a6de3" />
+  <circle cx="32" cy="32" r="28" fill="#f0f8ff" />
+  
+  <!-- Stylized "A" for Ayazime -->
+  <path d="M20 44 L30 20 L34 20 L44 44 L38 44 L36 38 L28 38 L26 44 Z" fill="#1a6de3" />
+  <path d="M29 33 L35 33 L32 26 Z" fill="#f0f8ff" />
+  
+  <!-- Play button triangle for streaming concept -->
+  <polygon points="40,28 40,36 46,32" fill="#2c88e8" />
+  
+  <!-- Sparkle element -->
+  <path d="M22 24 L24 26 L26 24 L24 22 Z" fill="#7cb9ff" />
+</svg>
