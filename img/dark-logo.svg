@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 300 100">
+  <!-- Fundo do logotipo (opcional, apenas para contraste ao testar) -->
+  <rect width="300" height="100" fill="none"/>
+  <!-- Texto "Ayazime" em versão escura -->
+  <text x="35" y="68" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#1a1a2e" letter-spacing="2">
+    Ayazime
+  </text>
+  <!-- Elemento gráfico minimalista: Linha reta -->
+  <line x1="20" y1="80" x2="100" y2="80" stroke="#4361ee" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -89,6 +89,7 @@ nav ul li {
   padding: 8px 16px;
   border-radius: 5px;
   border-bottom: none;
+  display: inline-block;
 }
 
 .sign a:hover {
@@ -436,9 +437,5 @@ footer {
   }
   .footer-container h4 {
     font-size: 89%;
-  }
-
-  .sign {
-    min-width: 15ch;
   }
 }
